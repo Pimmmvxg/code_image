@@ -22,7 +22,7 @@ from numpy import ndarray
 CFG = {
     # ---- Paths ----
     #"weights": r"C:\leaf_diseases\yolo-seg\runs\seg_train\exp\weights\best.pt",
-    "weights" : r"C:\Plant_analysis\plant_anomaly\best.pt",
+    "weights" : r"plant_anomaly\best.pt",
     "img_path": r"R:\01-Organize\01-Management\01-Data Center\Brisk\06-AI & Machine Learning (D0340)\04-IOT_Smartfarm\picture_original_topview_smartfarm\picture_topview_B_12112025_100120.jpg",      # รูปเดี่ยวหรือโฟลเดอร์
     "mask_dir": None , # โฟลเดอร์มาสก์ (None ถ้าไม่มี)
     #"out_dir":  r"C:\leaf_diseases\yolo-seg\results_infer",

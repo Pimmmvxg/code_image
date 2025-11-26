@@ -1,0 +1,14 @@
+# Image Processing & AI
+ultralytics>=8.0.0      # สำหรับ YOLO model
+plantcv                 # สำหรับ Plant Analysis pipeline
+opencv-python           # สำหรับ cv2
+numpy                   # การคำนวณ array
+torch                   # ปกติจะมาพร้อม ultralytics แต่ระบุไว้เผื่อ GPU version
+
+# Web API & Network
+flask                   # สำหรับ API Server
+flask-cors              # สำหรับจัดการ CORS ใน API
+paho-mqtt               # สำหรับเชื่อมต่อ Thingsboard
+
+# Utilities & Automation
+watchdog                # สำหรับเฝ้าดูไฟล์ใน folder
